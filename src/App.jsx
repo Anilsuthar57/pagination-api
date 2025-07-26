@@ -33,7 +33,7 @@ function App() {
         currentPage={currentPage}
         setCurrentPage={setCurrentPage}
       />
-      <div className="grid grid-cols-5 gap-5 p-5">
+      <div className="grid  grid-cols-2 md:grid-cols-5 gap-5 p-5">
         {products.slice(startPage, endPage).map((product) => (
           <ProductCard
             key={product.id}
